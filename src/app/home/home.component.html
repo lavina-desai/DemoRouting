@@ -1,0 +1,10 @@
+<md-sidenav-container class="background-color" fullscreen>
+  <md-sidenav class="mat-elevation-z4" #sidenav align="right" mode="side" opened="true" disableClose="true">
+    <a class="navigation-button" color="warn" md-raised-button [routerLink]="['/form']" routerLinkActive="active">Form</a>
+  </md-sidenav>
+
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-container>
